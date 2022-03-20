@@ -1,5 +1,4 @@
 export const accordions = () => {
-  const featureItem = document.querySelectorAll(".feature__item");
   const btns = document.querySelectorAll(".feature__item > .feature__link");
 
   btns.forEach((btn) => {

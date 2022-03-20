@@ -6,13 +6,13 @@ export const modal = () => {
 
   more.forEach((item) => {
     item.addEventListener("click", () => {
-      modal.classList.remove("hidden");
+      modal.classList.toggle("hidden");
     });
   });
   modalClose.addEventListener("click", () => {
-    modal.classList.add("hidden");
+    modal.classList.toggle("hidden");
   });
   overlay.addEventListener("click", () => {
-    modal.classList.add("hidden");
+    modal.classList.toggle("hidden");
   });
 };
